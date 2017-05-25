@@ -1,4 +1,4 @@
-/* 
+/*
 
 Think - CSS File
 
@@ -180,8 +180,8 @@ img.alignnone {
 }
 
 
-img.alignleft, 
-img.alignright, 
+img.alignleft,
+img.alignright,
 img.aligncenter,
 img.alignnone {
 	margin-bottom: 12px;
@@ -215,7 +215,7 @@ ul ol,
 ol ul {
 	margin-bottom: 0;
 }
-	
+
 blockquote {
     background-image: url("../images/quote.png");
     background-position: 0 0;
@@ -228,8 +228,8 @@ blockquote {
     padding: 0 10px 0 50px;
 	font-family:'Cuprum', Arial;
 }
-	
-	
+
+
 blockquote.left, blockquote.right  {
 	float:right;
 	letter-spacing:0px;
@@ -240,7 +240,7 @@ blockquote.left, blockquote.right  {
 	width:43%;
 	background-position:0px 0px;
 	}
-	
+
 blockquote.left{
 	float:left;
 	margin-left:0px;
@@ -297,7 +297,12 @@ code {
 
 /*** HEADER ***/
 #top{}
-#logo{float:left}
+#logo{
+  float:left
+}
+#logo a{
+  font-size: 40px;
+}
 #headerright{float:left; padding:40px 0 0 0}
 #headerright #searchform{
 	float:right;
@@ -306,7 +311,7 @@ code {
 }
 #headerright input{border:0;}
 #headerright .search input#s{
-	width:auto; 
+	width:auto;
 	padding:8px 10px;
 	-moz-border-radius:3px 0 0 3px;
 	-webkit-border-radius:3px 0 0 3px;
@@ -319,7 +324,7 @@ code {
 	vertical-align:middle;
 }
 #headerright input[type="submit"]{
-	font-size:12px; 
+	font-size:12px;
 	font-family:Arial;
 	text-transform:capitalize;
 	padding:7px 10px 8px 10px;
@@ -333,7 +338,7 @@ code {
 }
 
 /* firefox only */
-@-moz-document url-prefix() { 
+@-moz-document url-prefix() {
   #headerright input[type="submit"]{
      padding:7px 10px 6px 10px;
   }
@@ -350,9 +355,9 @@ code {
 	position:relative;
 	font-family:"OpenSansRegular", Arial;
 	padding:0 0 0 1px;
-	
+
 	border-radius:10px;
-	
+
 }
 
 .sf-menu a {
@@ -361,6 +366,7 @@ code {
 	position:		relative;
 	padding: 		25px 0 26px 0;
 	text-transform:uppercase;
+  font-size: 16px;
 }
 
 .sf-menu li:first-child a{
@@ -380,7 +386,7 @@ code {
     position: relative;
     z-index: 10;
 	width:155px;
-	width:154.42px\9; /* IE8 and below */  
+	width:154.42px\9; /* IE8 and below */
 	text-align:center
 }
 
@@ -410,7 +416,7 @@ code {
 	padding:		0;
 	list-style:		none;
 	font-size:14px;
-	
+
 }
 .sf-menu {
 	line-height:100%;
@@ -418,7 +424,7 @@ code {
 	right:0;
 	bottom:0;
 	float:left;
-	
+
 }
 .sf-menu ul {
 	position:		absolute;
@@ -427,7 +433,7 @@ code {
 }
 .sf-menu ul li {
 	width:			100%;
-	
+
 }
 .sf-menu li:hover {
 	visibility:		inherit; /* fixes IE7 'sticky bug' */
@@ -447,7 +453,7 @@ code {
 ul.sf-menu li:hover li ul,
 ul.sf-menu li.sfHover li ul {
 	top:			-999em;
-	
+
 }
 ul.sf-menu li li:hover ul,
 ul.sf-menu li li.sfHover ul {
@@ -458,13 +464,13 @@ ul.sf-menu li li.sfHover ul {
 ul.sf-menu li li:hover li ul,
 ul.sf-menu li li.sfHover li ul {
 	top:			-999em;
-	
+
 }
 ul.sf-menu li li li:hover ul,
 ul.sf-menu li li li.sfHover ul {
 	left:			12em; /* match ul width */
 	top:			-1px;
-	
+
 }
 .sf-menu ul li a{
 	padding:12px 25px!important;
@@ -473,7 +479,7 @@ ul.sf-menu li li li.sfHover ul {
 }
 
 .sf-menu li ul {
-	padding:0px 0px;	
+	padding:0px 0px;
 }
 .sf-menu a.sf-with-ul {
 	padding-right: 	0px;
@@ -566,7 +572,7 @@ ul.sf-menu li li li.sfHover ul {
 	text-align: center;
 	margin:0 15px 0 0;
 	font-family: 'OpenSansSemibold', Arial;
-	
+
 }
 
 
@@ -583,7 +589,7 @@ img.scale-with-grid {
 	padding:6px;
 	max-width: 95%;
 	display:block;
-	
+
 }
 
 .shadowBottom{background:url(../images/shadow-small.gif) no-repeat center bottom; padding-bottom:5px;}
@@ -620,7 +626,7 @@ textarea:focus{outline:0;}
 	-webkit-border-radius: 3px;
 	-khtml-border-radius: 3px;
 	border-radius: 3px;
-	
+
 }
 .button:hover, input[type="submit"]:hover, button:hover{
 	text-decoration:none;
@@ -669,7 +675,7 @@ textarea:focus{outline:0;}
 	text-align: center;
 	margin:8px 15px 0 0;
 	padding-top:3px;
-	
+
 }
 .dropcap3{
 	display:block;
@@ -684,7 +690,7 @@ textarea:focus{outline:0;}
 }
 
 /*== Highlight ==*/
-.highlight1{padding:2px 5px;}	
+.highlight1{padding:2px 5px;}
 .highlight2{padding:2px 5px;}
 
 /*=== Pullquotes ===*/
@@ -713,7 +719,7 @@ ul.tabs {
 	list-style: none;
 	height: 25px;
 	width: 100%;
-	
+
 }
 
 ul.tabs li {
@@ -737,7 +743,7 @@ ul.tabs li a {
 }
 
 .tab-content {padding: 20px 0; }
-	
+
 ul.tabs li:hover{}
 #tab-body{padding:0 20px;}
 
@@ -823,7 +829,7 @@ tr.odd td {}
 	list-style-type:none;
 	margin:0;
 	padding:0;
-	
+
 }
 #sidebar .widget-container{margin-bottom:40px; padding:40px 0 0 0;}
 #sidebar .widget-container:first-child{padding:0; border:0}

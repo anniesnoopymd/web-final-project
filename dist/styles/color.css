@@ -1,4 +1,4 @@
-/* 
+/*
 
 Think - CSS File
 
@@ -12,7 +12,7 @@ body {color:#888;}
 }
 
 /* Link color */
-a, a:visited, .colortext, .colortext a, .colortext a:visited{color:#e13e00}
+a, a:visited, .colortext, .colortext a, .colortext a:visited{color:#000}
 a:hover, a.colortext:hover, .colortext a:hover{color:#ec561d}
 
 
@@ -123,13 +123,13 @@ hr {
 	color:#fff;
 }
 
-/* Dropcaps */	
+/* Dropcaps */
 .dropcap1{text-shadow:1px 1px 0 #ededed; color:#535e70}
-.dropcap2, .circle{background:#535e70; color:#fff;}		
+.dropcap2, .circle{background:#535e70; color:#fff;}
 .dropcap3{	background:#535e70; color:#fff;}
 
 /* Highlight */
-.highlight1{background:#535e70; color:#fff;}	
+.highlight1{background:#535e70; color:#fff;}
 .highlight2{background:#ebebeb;  border:solid 1px #f7f7f7}
 
 /* Code */
@@ -137,7 +137,7 @@ code {
 	border-left:4px solid #eaeaea;
 }
 
-		
+
 /* Tabs */
 ul.tabs li {
 	background:#f8f8f8;
@@ -153,7 +153,7 @@ html ul.tabs li.active a{ color:#dc3c00; }
 /* jQuery Toggles */
 h2.trigger span {color:#4e5b70;}
 h2.active span{ color:#dc3c00}
-h2.trigger span:hover {color:#dc3c00} 
+h2.trigger span:hover {color:#dc3c00}
 
 /* Tables */
 th{border-bottom: 1px solid #f1f1f1;}
