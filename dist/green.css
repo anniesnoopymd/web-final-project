@@ -64,6 +64,17 @@ a{
   border: none;
   font-weight: bold;
 }
+.btn.btn-primary.forget{
+  background-color: #fff;
+  border: #FF7E67;
+  font-weight: bold;
+  transition-duration: 0.5s;
+}
+.btn.btn-primary:hover{
+  background-color: #cccccc;
+  border: none;
+  font-weight: bold;
+}
 .title{
   font-size: 50px;
   font-wight: 900;
@@ -182,7 +193,7 @@ section#section_new {
 
   background-attachment: fixed;
 
-  height: 400px;
+  height: 1400px;
   width: 1500px;
 }
 section#section_new .left {
@@ -681,6 +692,6 @@ footer.jum .col-sm-3 {
 }
 
 .carousel-inner > .item > img{
-    width: 50%;
+    width: 70%;
     margin: auto;
 }
