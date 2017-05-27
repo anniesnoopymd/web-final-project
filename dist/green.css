@@ -529,9 +529,10 @@ section#section_future input {
 
 footer.jum {
   text-align: center;
-  background-color: #DFE4E3;
+  background-color: #07689F;
   height: 500px;
   width: 1500px;
+  margin-top: 20px;
 }
 footer.jum .container {
   margin: 0 auto;
@@ -540,8 +541,8 @@ footer.jum p {
   font-size: 30px;
   letter-spacing: 7px;
   font-weight: bold;
-  color: #21897E;
-  text-shadow: 1px 1px 1px #ffffff;
+  color: #ffffff;
+
   margin-top: 170px;
 }
 footer.jum input {
@@ -554,20 +555,24 @@ footer.jum input {
 }
 footer.jum hr {
   max-width: 50px;
-  border: solid 2px #3BA99C;
+  border: solid 2px #FF3D1B;
   border-radius: 2px;
 }
 footer.jum button {
   transition-duration: 0.5s;
-  font-family: Time New Roman;
+
 }
 footer.jum button:hover {
-  background-color: #3BA99C;
+  background-color: #FF3D1B;
   color: #fff;
 }
 footer.jum .col-sm-3 {
   font-size: 15px;
   color: white;
+}
+btn.btn-default{
+  background-color: #FF3D1B;
+  color: #fff;
 }
 
 
@@ -898,11 +903,25 @@ footer.jum .col-sm-3 {
   margin-left: 100px;
 
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 20px;
   border: none;
-  border-bottom: 1px solid black;
+  transition-duration: 1s;
   background-color: #FF7E67;
+  box-shadow: 5px 5px 5px #888888;
 }
+.boxinfo:hover{
+  width: 200px;
+  height: 200px;
+  margin-left: 100px;
+
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  color: white;
+  background-color: #3E3E3E;
+  box-shadow: 5px 5px 5px #888888;
+}
+
 .col-sm-2{
   padding: 10px;
   margin-right: 50px;
