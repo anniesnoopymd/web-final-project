@@ -1,0 +1,49 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  font-size: 12px;
+}
+
+html, body {
+  justify-content: center;
+  align-items: center;
+}
+
+.panel-primary {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.line {
+  text-align: center;
+  font-size: 15px;
+  color: #fc3f64;
+  font-weight: bold;
+}
+
+.form-horizontal {
+  padding: 51px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.line2 {
+  color: gray;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
+
+table {
+  font-family: 微軟正黑體;
+  width: 100%;
+  padding: 50px;
+}

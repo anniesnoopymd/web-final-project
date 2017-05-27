@@ -1,0 +1,352 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link type="text/css" rel="stylesheet" href="new.css">
+  <link href="https://bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title></title>
+<style>
+
+td, th {
+    padding: 5px;
+}
+
+</style>
+</head>
+<body>
+<!-- nav -->
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">首頁</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+      <ul class="nav navbar-nav">
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><span class="glyphicon glyphicon-plus"></span>    新增資料 <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">簡式欄位</a></li>
+            <li><a href="#">全部欄位</a></li>
+          </ul>
+        </li>
+
+         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-gift"></span>    服務功能 <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">探索專業人才</a></li>
+            <li><a href="#">代辦校友證件</a></li>
+            <li><a href="#">校友統計數量</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span>    常見問題集</a></li>
+
+        <li><a href="#"><span class="glyphicon glyphicon-bullhorn"></span>    喊聲加油</a></li>
+
+        <li><a href="#"><span class="glyphicon glyphicon-download-alt"></span>   使用單位申請表</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-out"></span>    登出</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- 輸入技巧 -->
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title"><span class="glyphicon glyphicon-alert"></span>    輸入技巧</h3>
+  </div>
+  <div class="panel-body">
+    <p class="text">輸入資料時請避免使用 ' , # <> 符號 ，建議使用，  、 () 符號代替。</p>
+
+    <p class="text-danger">新增資料時，請先確定資料是否已存在(首頁可查詢)。帶公共事務室確認無誤後，才能進入真實資料庫。(七個工作天以內處理完畢)</p>
+
+
+  <div class="btn-group">
+    <a href="#" class="btn btn-default">簡式欄位</a>
+    <a href="#" class="btn btn-default">全部欄位<a>
+  </div>
+
+  </div>
+</div>
+
+<!-- 表格 -->
+
+  <form class="form-horizontal">
+  <fieldset>
+
+    <legend class="title">輔仁大學校友資料庫-簡式欄位</legend>
+<div class="container">
+</div>
+<table>
+  <tr>
+    <td colspan="2" rowspan="4" align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVV594O6TaWDF1YE_qXAf5NyzTtn0gsrG0RDdsgvwVQsSeCAy6" alt=""/></td>
+    <td align="center">身分證字號</td>
+    <td><input type="text" class="form-control" id="inputEmail" placeholder=""></td>
+  </tr>
+  <tr>
+    <td align="center">部別</td>
+    <td><select class="form-control" id="select">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select></td>
+  </tr>
+  <tr>
+    <td align="center">學號</td>
+    <td><input type="text" class="form-control" id="inputEmail" placeholder=""></td>
+  </tr>
+  <tr>
+    <td align="center">系所</td>
+    <td><select class="form-control" id="select">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select></td>
+  </tr>
+  <tr>
+    <td align="center">姓名</td>
+    <td><input type="text" class="form-control" id="inputEmail" placeholder=""></td>
+    <td align="center">英文姓名</td>
+    <td><input type="text" class="form-control" id="inputEmail" placeholder=""></td>
+  </tr>
+  <tr>
+    <td align="center">生日</td>
+    <td >民國85年02月26日</td>
+    <td align="center">性別</td>
+    <td><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">男
+      &nbsp;&nbsp;
+        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">女</td>
+  </tr>
+  <tr>
+    <td align="center">屆數</td>
+    <td><input type="text" class="form-control" id="inputEmail" placeholder=""></td>
+    <td align="center">入學年/畢業年</td>
+    <td>民國 103/107</td>
+  </tr>
+   <tr>
+    <td align="center">國籍</td>
+    <td><input type="text" class="form-control" id="inputEmail" placeholder=""></td>
+    <td></td>
+
+  </tr>
+
+</table>
+  <br /><br /><br />
+<div class="line">─ ─ ─ ─ ─ ─ ─ ─ ─ 登入安全(至少要有一種安全判斷) ─ ─ ─ ─ ─ ─ ─ ─ ─</div>
+  <br /><br /><br />
+<table>
+    <tr>
+  <td>密碼(十個字以內)</td>
+  <td><input type="text" class="form-control" id="inputEmail" placeholder=""></td>
+      <td>密碼確認</td>
+  <td><input type="text" class="form-control" id="inputEmail" placeholder=""></td>
+
+  </tr>
+      <tr>
+  <td>身分證字號判斷</td>
+  <td><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">是
+    &nbsp;&nbsp;
+       <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">否</td>
+  <td>密碼判斷</td>
+  <td><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">是
+    &nbsp;&nbsp;
+      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">否</td>
+  </tr>
+    </table>
+  <br /><br /><br />
+<div class="line">─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ 聯絡方式 ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─</div>
+  <br /><br /><br />
+
+<table>
+
+  <tr>
+    <td align="center">永久地址</td>
+    <td><select class="form-control" id="select">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+    <td colspan="4" rowspan="1" align="center"><input type="text" class="form-control" id="inputEmail" placeholder=""></td>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">郵遞地址</td>
+    <td> <input type="checkbox"> 同永久地址</td>
+    </td>
+  </tr>
+  <tr>
+  <td></td>
+  <td><select class="form-control" id="select">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+    <td colspan="4" rowspan="1" align="center"><input type="text" class="form-control" id="inputEmail" placeholder=""></td>
+  </tr>
+
+  <tr>
+    <td align="center">永久電話 1</td>
+    <td><input type="text" class="form-control" id="inputEmail" placeholder=""></td>
+    <td align="center">通訊電話</td>
+    <td><input type="text" class="form-control" id="inputEmail" placeholder=""></td>
+  </tr>
+  <tr>
+    <td align="center">手機電話</td>
+    <td><input type="text" class="form-control" id="inputEmail" placeholder=""></td>
+    <td align="center">電子信箱 1</td>
+    <td><input type="text" class="form-control" id="inputEmail" placeholder=""></td>
+  </tr>
+  <tr>
+    <td align="center">校友狀態</td>
+    <td colspan="4" rowspan="1" align="center">
+      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">服役中
+      &nbsp;&nbsp;
+      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">準備考試
+      &nbsp;&nbsp;
+      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">就學中
+      &nbsp;&nbsp;
+      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">待業
+      &nbsp;&nbsp;
+      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">工作中
+      &nbsp;&nbsp;
+      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">退休
+      &nbsp;&nbsp;
+      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">歿
+      &nbsp;&nbsp;
+      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">其他
+
+
+
+    </td>
+  </tr>
+
+
+</table>
+  <br /><br /><br />
+<div class="line">─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ 進修/工作 ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─</div>
+  <br /><br /><br />
+
+<table>
+
+  <tr>
+    <td align="center">公司名稱及部門/<br>學校名稱及系所</td>
+    <td colspan="4" rowspan="1" align="center"><input type="text" class="form-control" id="inputEmail" placeholder=""></td>
+  </tr>
+  <tr>
+    <td align="center">就業類別</td>
+    <td><select class="form-control" id="select">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select></td>
+    <td align="center">行業別</td>
+     <td><select class="form-control" id="select">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select></td>
+  </tr>
+    <tr>
+    <td align="center">公司地址/學校地址</td>
+    <td> <input type="checkbox"> 同郵遞地址</td>
+    </td>
+  </tr>
+  <tr>
+  <td></td>
+  <td><select class="form-control" id="select">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+    <td colspan="4" rowspan="1" align="center"><input type="text" class="form-control" id="inputEmail" placeholder=""></td>
+  </tr>
+  <tr>
+    <td align="center">職稱/學位</td>
+    <td><input type="text" class="form-control" id="inputEmail" placeholder=""></td>
+    <td align="center">公司電話</td>
+     <td><input type="text" class="form-control" id="inputEmail" placeholder=""></td>
+  </tr>
+</table>
+  <br /><br /><br />
+<div class="line">─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ 其他 ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─</div>
+  <br /><br /><br />
+<table>
+ <tr>
+  <td>是否願意收到輔大寄給您的郵寄刊物?</td>
+  <td><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">是
+      &nbsp;&nbsp;
+      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">否
+  </td>
+  </tr>
+ <tr>
+  <td>是否願意收到輔大寄給您的電子郵件?</td>
+  <td><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">是
+      &nbsp;&nbsp;
+      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">否
+  </td>
+  </tr>
+ <tr>
+  <td>是否願意收到輔大校系所有會、社團寄給您的活動資訊?</td>
+  <td><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">是
+      &nbsp;&nbsp;
+      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">否
+  </td>
+  </tr>
+</table>
+<br /><br /><br />
+
+<div class="line2">──────────────────────────────────────────────────────────────</div>
+<br /><br /><br />
+<div class="button"><button type="reset" class="btn btn-warning">重寫</button>
+    &nbsp;&nbsp;
+        <button type="submit" class="btn btn-primary">確定</button>
+    &nbsp;&nbsp;
+     <button type="submit" class="btn btn-info">回上頁</button>
+</div>
+<br /><br /><br />
+  </fieldset>
+</form>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/Scripts/BS2/bootstrap-transition.js"></script>
+<script src="/Scripts/BS2/bootstrap-alert.js"></script>
+<script src="/Scripts/BS2/bootstrap-modal.js"></script>
+<script src="/Scripts/BS2/bootstrap-dropdown.js"></script>
+<script src="/Scripts/BS2/bootstrap-scrollspy.js"></script>
+<script src="/Scripts/BS2/bootstrap-tab.js"></script>
+<script src="/Scripts/BS2/bootstrap-tooltip.js"></script>
+<script src="/Scripts/BS2/bootstrap-popover.js"></script>
+<script src="/Scripts/BS2/bootstrap-button.js"></script>
+<script src="/Scripts/BS2/bootstrap-collapse.js"></script>
+<script src="/Scripts/BS2/bootstrap-carousel.js"></script>
+<script src="/Scripts/BS2/bootstrap-typeahead.js"></script>
+
+
+</body>
+</html>

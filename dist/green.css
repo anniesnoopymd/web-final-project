@@ -2,8 +2,15 @@
 * {
   font-family: "Lemonada", 微軟正黑體;
 }
-
-
+body{
+  width: 100%;
+}
+navbar-header{
+  height: 30px;
+}
+collapse.navbar-collapse{
+  height: 30px;
+}
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: bold;
