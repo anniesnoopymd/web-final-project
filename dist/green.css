@@ -3,10 +3,7 @@
   font-family: "Lemonada", 微軟正黑體;
 }
 
-body {
-  height: 1000px;
 
-}
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: bold;
@@ -66,9 +63,10 @@ a{
 }
 .btn.btn-primary.forget{
   background-color: #fff;
-  border: #FF7E67;
+  border:1px solid #FF7E67;
   font-weight: bold;
   transition-duration: 0.5s;
+  color: #FF7E67;
 }
 .btn.btn-primary:hover{
   background-color: #cccccc;
@@ -694,4 +692,5 @@ footer.jum .col-sm-3 {
 .carousel-inner > .item > img{
     width: 70%;
     margin: auto;
+    height: 100px;
 }
