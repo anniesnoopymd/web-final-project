@@ -6,7 +6,7 @@ body{
   width: 100%;
 }
 navbar-header{
-  height: 30px;
+  height: 50px;
 }
 collapse.navbar-collapse{
   height: 30px;
@@ -19,16 +19,25 @@ a{
   text-decoration: none;
   color: #fff;
 }
+header{
+  background-color: #fff;
+}
 
 .jumbotron {
   text-align: center;
-  height: 250px;
+  height: 400px;
   width: 100%;
   padding: 0px;
+  margin-top: -10px;
   background-color: #fff;
+  background: #fff;
+  background: url(http://maxpixel.freegreatpicture.com/static/photo/1x/Screen-Paper-Fly-Red-Background-Aircraft-Flat-1314334.png);
+  background-repeat: repeat-x;
+  background-position:60% -30%;
+  background-attachment: fixed;
 }
 .jumbotron .container {
-  padding: 200px 0px;
+  padding: 0px 0px;
 
 }
 .jumbotron .wow.bounceInLeft {
@@ -40,7 +49,7 @@ a{
 }
 .jumbotron hr {
   max-width: 50px;
-  border: solid 2px #FF7E67;
+  border: solid 2px #07689F;
   border-radius: 2px;
   margin-left: 330px;
   margin-top: 10px;
@@ -51,6 +60,9 @@ a{
   font-weight: normal;
   font-size: 25px;
   font-weight: bold;
+}
+.form-group.form-control{
+  width: 350px;
 }
 
 #signin{
@@ -85,17 +97,16 @@ a{
   font-wight: 900;
   text-shadow:3px 3px #cccccc;
   text-align: left;
-  margin-top: -200px;
-  margin-left: -70px;
-  color: #07689F;
+  padding-left: -200px;
+  color: #fff;
 }
 .engtitle{
-  font-size: 20px;
+  font-size: 25px;
   font-wight: 900;
   text-align: left;
   margin-top: 20px;
   margin-left: 200px;
-  color: #07689F;
+  color: #fff;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
