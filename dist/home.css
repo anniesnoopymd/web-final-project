@@ -906,7 +906,7 @@ btn.btn-default{
   font-size: 20px;
   border: none;
   transition-duration: 1s;
-  background-color: #FF7E67;
+  background-color: #337AB8;
   box-shadow: 5px 5px 5px #888888;
 }
 .boxinfo:hover{

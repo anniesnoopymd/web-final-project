@@ -1,0 +1,73 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+
+}
+
+html, body {
+  justify-content: center;
+  align-items: center;
+}
+
+.panel {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.line {
+  border: solid 1px;
+}
+
+.question {
+  font-size: 18px;
+  padding: 5px;
+  line-height: 150%;
+}
+
+#question1 p {
+  text-align: center;
+}
+
+h4 {
+  font-weight: bolder;
+}
+
+.function1 {
+  margin-left: 10%;
+  justify-content: center;
+  align-items: center;
+  text-align: ceneter;
+}
+
+.fun1 {
+  border: solid 2px;
+  width: 150px;
+  height: 150px;
+  margin-left: 10px;
+}
+.fun1 p {
+  font-size: 15px;
+  font-weight: bold;
+}
+.fun1:hover {
+  color: #158cba;
+}
+
+.fun2 {
+  border: solid 2px;
+  width: 150px;
+  height: 150px;
+  margin-left: 10px;
+}
+.fun2 p {
+  font-size: 15px;
+  font-weight: bold;
+}
+.fun2:hover {
+  color: #ff3067;
+}
+
+.glyphicon-pencil, .glyphicon-star, .glyphicon-alert, .glyphicon-book, .glyphicon-cloud, .glyphicon-signal, .glyphicon-envelope, .glyphicon-list-alt, .glyphicon-plus-sign, .glyphicon-eye-close, .glyphicon-earphone, .glyphicon-search, .glyphicon-briefcase {
+  margin-left: 30%;
+  font-size: 60px;
+}
