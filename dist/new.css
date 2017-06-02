@@ -13,6 +13,9 @@ html, body {
   width: 70%;
   margin-left: 15%;
 }
+.panel-primary:hover {
+  text-decoration:none;
+}
 
 .title {
   text-align: center;
@@ -24,6 +27,11 @@ html, body {
   font-size: 15px;
   color: #fc3f64;
   font-weight: bold;
+  border: none;
+  text-decoraion:none;
+}
+.line:hover {
+  text-decoraion:none;
 }
 
 .form-horizontal {

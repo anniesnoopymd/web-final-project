@@ -7,6 +7,7 @@ body{
 }
 navbar-header{
   height: 50px;
+
 }
 collapse.navbar-collapse{
   height: 30px;
@@ -26,8 +27,7 @@ header{
 .jumbotron {
   text-align: center;
   height: 400px;
-  width: 100%;
-  padding: 0px;
+
   margin-top: -10px;
   background-color: #fff;
   background: #fff;
@@ -719,7 +719,7 @@ btn.btn-default{
 }
 .wrapper {
   margin: 0 auto;
-  margin-left: 5em;
+  margin-left: 7em;
   padding: 0;
 	width: 35em;
 	height: 20em;
@@ -900,8 +900,8 @@ btn.btn-default{
 .boxinfo{
   width: 200px;
   height: 200px;
-  margin-left: 100px;
-
+  margin-left: 150px;
+  margin-top: 50px;
   border-radius: 5px;
   font-size: 20px;
   border: none;
@@ -912,8 +912,8 @@ btn.btn-default{
 .boxinfo:hover{
   width: 200px;
   height: 200px;
-  margin-left: 100px;
-
+  margin-left: 150px;
+  margin-top: 50px;
   border-radius: 5px;
   font-size: 20px;
   border: none;
@@ -925,4 +925,40 @@ btn.btn-default{
 .col-sm-2{
   padding: 10px;
   margin-right: 50px;
+}
+#myCarousel{
+  margin-top: 100px;
+  height: 300px;
+}
+
+.col-sm-4.photo{
+  width: 500px;
+  height: 300px;
+  border-radius: 5px;
+  margin-left: 30px;
+  padding: 20px;
+}
+.col-sm-4.photo1{
+  width: 450px;
+  height: 300px;
+
+  -webkit-box-shadow: 5px 5px 5px #888888;;
+  box-shadow: 5px 5px 5px #888888;;
+  background: url(images/1.jpg);
+  background-size: cover;
+}
+.col-sm-4.photo2{
+  width: 450px;
+  height: 300px;
+
+  background: url(images/2.jpg);
+  background-size: cover;
+}
+.col-sm-4.photo3{
+  width: 450px;
+  height: 300px;
+
+
+  background: url(images/3.jpg);
+  background-size: cover;
 }
