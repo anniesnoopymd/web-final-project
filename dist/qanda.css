@@ -44,10 +44,12 @@ h4 {
   width: 150px;
   height: 150px;
   margin-left: 10px;
+  margin-right: 70px;
 }
 .fun1 p {
   font-size: 15px;
   font-weight: bold;
+  
 }
 .fun1:hover {
   color: #158cba;
