@@ -16,13 +16,14 @@ body {
   box-sizing: border-box;
   overflow: hidden;
 }
-.btn.btn-primary{
+.btn-primary{
   margin-left:700px;
   margin-top: 50px;
   background-color: #FF7E67;
   color: white;
   border: none;
-
+  font-size: 18px;
+  padding-top: -30px;
 }
 .words{
   font-size: 18px;
@@ -37,8 +38,9 @@ body {
 p{
   font-size: 18px;
   font-family: 微軟正黑體;
-  padding-top: 20px;
+  padding-top: 60px;
   text-align: center;
+  color: white;
 }
 span{
   font-size: 18px;
@@ -67,4 +69,29 @@ textarea{
 }
 input{
   border-radius: 5px;
+}
+.btn.btn-warning{
+  font-size: 20px;
+  padding-bottom: 30px;
+  height: 45px;
+  width: 130px;
+  background-color: #ff7e67;
+}
+.container{
+  width: 900px;
+}
+.glyphicon.glyphicon-send{
+  margin-left: 10px;
+  padding-top: -2px;
+}
+.glyphicon.glyphicon-home{
+  margin-left: 10px;
+  padding-top: -2px;
+}
+.btn{
+  width: 110px;
+  height: 50px;
+  padding-top: -12px;
+  margin-left: 10px;
+  text-align: center;
 }

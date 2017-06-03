@@ -16,34 +16,83 @@
 <body>
 
 
-  <button type="submit" class="btn btn-primary">回首頁</button>
-  <div class="words">
+
+
     <p> 為了網站符合您的需求，誠摯希望您寫下對我們的建議 </p>
-    <table>
-      <tr>
-        <td align="center"><span class="glyphicon glyphicon-link">&nbsp;網路位址</td>
-        <td>111.250.166.72 (防止重複留言之用)</td>
-      </tr>
-      <tr>
-        <td align="center"><span class="glyphicon glyphicon-user">&nbsp;您的身份</td>
-        <td><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">校友
-            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" >系所秘書
-            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" >訪客
+  <div class="container">
 
-      </td>
-      </tr>
-      <tr>
-        <td align="center"><span class="glyphicon glyphicon-pencil">&nbsp;您的姓名</td>
-        <td><input></td>
-      </tr>
-      <tr>
-        <td align="center"><span class="glyphicon glyphicon-volume-up">&nbsp;要對本站說的話</td>
-        <td><textarea></textarea></td>
-      </tr>
-    </table>
+      <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+  <fieldset>
+
+  <!-- Form Name -->
+  <legend>留下您的心聲吧!</legend>
 
 
+  <!-- Text input-->
+
+  <div class="form-group">
+    <label class="col-md-4 control-label" >網路位址</label>
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-link"></i></span>
+    <input name="last_name" placeholder="111.250.166.72 (防止重複留言之用)" class="form-control"  type="text">
+      </div>
+    </div>
+  </div>
+  <!-- radio checks -->
+ <div class="form-group">
+      <label class="col-md-4 control-label">您的身份</label>
+      <div class="col-md-4">
+          <div class="radio">
+              <label>
+                  <input type="radio" name="hosting" value="yes" /> 校友
+              </label>
+          </div>
+          <div class="radio">
+              <label>
+                  <input type="radio" name="hosting" value="no" /> 系所秘書
+              </label>
+          </div>
+          <div class="radio">
+              <label>
+                  <input type="radio" name="hosting" value="yes" /> 訪客
+              </label>
+          </div>
+      </div>
+  </div>
 
 
-</body>
+  <div class="form-group">
+    <label class="col-md-4 control-label" >您的姓名</label>
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+    <input name="last_name" placeholder="" class="form-control"  type="text">
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+  <label class="col-md-4 control-label">要對本站說的話</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-volume-up"></i></span>
+        	<textarea class="form-control" name="comment" placeholder=""></textarea>
+  </div>
+  </div>
+</div>
+
+
+
+    <!-- Button -->
+
+
+        <button type="submit" class="btn btn-primary">Send<span class="glyphicon glyphicon-send"></span></button>
+        <button type="submit" class="btn btn-primary">回首頁<span class="glyphicon glyphicon-home"></span></button>
+    </fieldset>
+    </form>
+    </div>
+        </div><!-- /.container -->
+
+
+  </body>
 </html>
