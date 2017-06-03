@@ -10,7 +10,7 @@ body {
   height: 100%;
   padding: 0px;
   margin: 0px;
-  background-color: #D3D3D3;
+  background-color: #888888;
   border-top: solid 20px #FF7E67;
 
   box-sizing: border-box;
@@ -26,7 +26,7 @@ body {
 }
 .words{
   font-size: 18px;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   height: 500px;
   width: 700px;
   margin-left: 400px;
@@ -37,22 +37,28 @@ body {
 p{
   font-size: 18px;
   font-family: 微軟正黑體;
-  padding-top: 10px;
+  padding-top: 20px;
   text-align: center;
-
 }
 span{
   font-size: 18px;
-  margin-left: 100px;
+  margin-left: 70px;
   margin-top: 20px;
   line-height: 10px;
 }
 .ip p{
   display: inline-block;;
 }
+table{
+  margin-left: 10px;
+}
 td{
+  /*border: 1px solid black;*/
   margin-top: 20px;
-  padding: 20px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
 }
 textarea{
   width: 400px;
