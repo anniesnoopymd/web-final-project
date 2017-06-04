@@ -23,7 +23,7 @@ body {
   color: white;
   border: none;
   font-size: 18px;
-  padding-top: -30px;
+  padding-top: -60px;
 }
 .words{
   font-size: 18px;
@@ -90,8 +90,14 @@ input{
 }
 .btn{
   width: 110px;
-  height: 50px;
+  height: 45px;
   padding-top: -12px;
   margin-left: 10px;
   text-align: center;
+}
+fieldset{
+  font-size: 16px;
+}
+fieldset input{
+  width: 400px;
 }
