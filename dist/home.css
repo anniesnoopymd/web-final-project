@@ -28,12 +28,13 @@ header{
   text-align: center;
   height: 400px;
 
-  margin-top: -10px;
+  margin-top: 0px;
   background-color: #fff;
   background: #fff;
-  background: url(http://maxpixel.freegreatpicture.com/static/photo/1x/Screen-Paper-Fly-Red-Background-Aircraft-Flat-1314334.png);
-  background-repeat: repeat-x;
-  background-position:60% -30%;
+  background-image: url(http://cssslider.com/sliders/demo-10/data1/images/2.jpg);
+  background-size: 1500px 900px;
+  background-repeat: no-repeat;
+  background-position: top;
   background-attachment: fixed;
 }
 .jumbotron .container {
@@ -209,6 +210,10 @@ section#section_new {
 
   background-attachment: fixed;
   background-color: #dddddd;
+  background-size: 1500px 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(http://cssslider.com/sliders/demo-10/data1/images/2.jpg);
   margin-top: -50px;
   padding: 40px;
   height: 400px;
