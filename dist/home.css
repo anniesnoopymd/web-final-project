@@ -21,20 +21,23 @@ a{
   color: #fff;
 }
 header{
-  background-color: #fff;
+  background-color: #253B6E;
 }
 
 .jumbotron {
   text-align: center;
   height: 400px;
+  -webkit-background-size: 1000px 400px;
+  background-size: 1000px 400px;
+  margin-top: -40px;
+  background-color: #253B6E;
+  /*background: #fff;*/
+  background: url(images/mortarboard.png);
+  background-repeat:no-repeat;
+  background-position:80% 10%;
 
-  margin-top: 0px;
-  background-color: #fff;
-  background: #fff;
-  background-image: url(http://cssslider.com/sliders/demo-10/data1/images/2.jpg);
-  background-size: 1500px 900px;
-  background-repeat: no-repeat;
-  background-position: top;
+  /*-webkit-background-size: 1500px 700px;
+  background-size: 1500px 700px;*/
   background-attachment: fixed;
 }
 .jumbotron .container {
@@ -50,9 +53,9 @@ header{
 }
 .jumbotron hr {
   max-width: 50px;
-  border: solid 2px #282f44;
+  border: solid 2px #253B6E;
   border-radius: 2px;
-  margin-left: 330px;
+  margin-left: 200px;
   margin-top: 10px;
 }
 
@@ -96,18 +99,19 @@ header{
 .title{
   font-size: 50px;
   font-wight: 900;
-  text-shadow:3px 3px #cccccc;
+  text-shadow:3px 3px #fff;
   text-align: left;
   padding-left: -200px;
-  color: #fff;
+  color: #FF7E67;
+  margin-top: 30px;
 }
 .engtitle{
   font-size: 25px;
   font-wight: 900;
   text-align: left;
   margin-top: 20px;
-  margin-left: 200px;
-  color: #fff;
+
+  color: #253B6E;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -209,11 +213,11 @@ section#section_one .introduce {
 section#section_new {
 
   background-attachment: fixed;
-  background-color: #dddddd;
+  background-color: #253B6E;
   background-size: 1500px 1000px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(http://cssslider.com/sliders/demo-10/data1/images/2.jpg);
+  background-image: url(https://ak8.picdn.net/shutterstock/videos/9053629/thumb/1.jpg?i10c=img.resize(height:160));
   margin-top: -50px;
   padding: 40px;
   height: 400px;
@@ -536,10 +540,10 @@ section#section_future input {
 
 footer.jum {
   text-align: center;
-  background-color: #282f44;
+  background-color: #253B6E;
   height: 500px;
   width: 1500px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 footer.jum .container {
   margin: 0 auto;
@@ -730,7 +734,7 @@ btn.btn-default{
   padding: 0;
 	width: 35em;
 	height: 20em;
-	background-color: #3E3E3E;
+	background-color: #dddddd;
   box-shadow: 7px 5px 4px rgba(0,0,0,0.5);
 }
 .top{
@@ -914,8 +918,8 @@ btn.btn-default{
   border: none;
   color: white;
   transition-duration: 0.5s;
-  background-color: #282f44;
-  box-shadow: 5px 5px 5px #888888;
+  background-color: #ff7f67;
+  box-shadow: 5px 5px 0px #fff;
 }
 .boxinfo:hover{
   width: 200px;
@@ -926,7 +930,7 @@ btn.btn-default{
   font-size: 20px;
   border: none;
   color: white;
-  background-color: #ff7f67;
+  background-color: #253B6E;
   box-shadow: 5px 5px 5px #888888;
 }
 
@@ -1059,4 +1063,7 @@ btn.btn-default{
 .item h3{
   margin-top: -350px;
   color: #fff;
+}
+.glyphicon-th-list,.glyphicon-tint,.glyphicon-list-alt{
+  font-size: 50px;
 }
