@@ -26,15 +26,15 @@ header{
 
 .jumbotron {
   text-align: center;
-  height: 400px;
-  -webkit-background-size: 1000px 400px;
-  background-size: 1000px 400px;
+  height: 300px;
+  -webkit-background-size: 1000px 300px;
+  background-size: 1000px 300px;
   margin-top: -40px;
   background-color: #253B6E;
   /*background: #fff;*/
   background: url(images/mortarboard.png);
   background-repeat:no-repeat;
-  background-position:80% 10%;
+  background-position:80% 0%;
 
   /*-webkit-background-size: 1500px 700px;
   background-size: 1500px 700px;*/
@@ -217,10 +217,11 @@ section#section_new {
   background-size: 1500px 1000px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(https://ak8.picdn.net/shutterstock/videos/9053629/thumb/1.jpg?i10c=img.resize(height:160));
+
   margin-top: -50px;
   padding: 40px;
-  height: 400px;
+  padding-top: 100px;
+  height: 500px;
   width: 1500px;
 }
 section#section_new .left {
@@ -930,13 +931,13 @@ btn.btn-default{
   font-size: 20px;
   border: none;
   color: white;
-  background-color: #253B6E;
-  box-shadow: 5px 5px 5px #888888;
+  background-color: #888888;
+  box-shadow: 5px 5px #fff;
 }
 
 .col-sm-2{
-  padding: 15px;
-  margin-right: 60px;
+  padding-right: 25px;
+  margin-right: 70px;
 }
 #myCarousel{
   margin-top: 100px;
