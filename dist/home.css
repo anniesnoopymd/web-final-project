@@ -99,7 +99,7 @@ header{
 .title{
   font-size: 50px;
   font-wight: 900;
-  text-shadow:3px 3px #fff;
+  text-shadow:3px 3px #253B6E;
   text-align: left;
   padding-left: -200px;
   color: #FF7E67;
@@ -213,7 +213,7 @@ section#section_one .introduce {
 section#section_new {
 
   background-attachment: fixed;
-  background-color: #253B6E;
+  background-color: #fff;
   background-size: 1500px 1000px;
   background-repeat: no-repeat;
   background-position: center;

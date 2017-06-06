@@ -28,17 +28,28 @@ html, body {
   color: #fc3f64;
   font-weight: bold;
   border: none;
-  text-decoraion:none;
+  text-decoration:none;
 }
 .line:hover {
-  text-decoraion:none;
+  text-decoration:none;
 }
-
+.line:active
+{
+    text-decoration:none;
+}
+a:hover, a:focus {
+  color: #158cba;
+  text-decoration: none;
+}
+legend{
+  text-decoration: none;
+}
 .form-horizontal {
   padding: 51px;
-  width: 50%;
-  margin-left: 25%;
+  width: 60%;
+  margin-left: 20%;
   margin-right: 25%;
+
 }
 
 .line2 {
@@ -54,4 +65,8 @@ table {
   font-family: 微軟正黑體;
   width: 100%;
   padding: 50px;
+
+}
+td{
+  font-size: 15px;
 }

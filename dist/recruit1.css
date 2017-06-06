@@ -1,0 +1,113 @@
+html{
+  width: 100%
+  height: 100%
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: #888888;
+  border-top: solid 20px #FF7E67;
+
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.btn-primary{
+  margin-left:700px;
+  margin-top: 50px;
+  background-color: #FF7E67;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding-top: -60px;
+}
+.words{
+  font-size: 18px;
+  /*border-radius: 10px;*/
+  height: 500px;
+  width: 700px;
+  margin-left: 400px;
+  margin-top: 50px;
+  background-color: #fff;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+p{
+  font-size: 18px;
+  font-family: 微軟正黑體;
+  padding-top: 60px;
+  text-align: center;
+  color: white;
+}
+span{
+  font-size: 18px;
+  margin-left: 70px;
+  margin-top: 20px;
+  line-height: 10px;
+}
+.ip p{
+  display: inline-block;;
+}
+table{
+  margin-left: 10px;
+}
+td{
+  /*border: 1px solid black;*/
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+textarea{
+  width: 400px;
+  height: 150px;
+  border-radius: 5px;
+}
+input{
+  border-radius: 5px;
+}
+.btn.btn-warning{
+  font-size: 20px;
+  padding-bottom: 30px;
+  height: 45px;
+  width: 130px;
+  background-color: #ff7e67;
+}
+.container{
+  width: 900px;
+}
+.glyphicon.glyphicon-send{
+  margin-left: 10px;
+  padding-top: -2px;
+}
+.glyphicon.glyphicon-home{
+  margin-left: 10px;
+  padding-top: -2px;
+}
+.btn{
+  width: 110px;
+  height: 45px;
+  padding-top: -12px;
+  margin-left: 10px;
+  text-align: center;
+}
+fieldset{
+  font-size: 16px;
+}
+fieldset input{
+  width: 400px;
+}
+legend{
+  font-size: 25px;
+  color: #444444;
+}
+.control-label{
+  background-color: #fff;
+  width: 100px;
+  margin-left: 250px;
+  border-radius: 5px;
+}
