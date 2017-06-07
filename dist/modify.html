@@ -1,10 +1,12 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="modify.css">
   <link href="https://bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="service.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <title></title>
-  <style>
+<style>
 
 td, th {
     padding: 5px;
@@ -13,8 +15,6 @@ td, th {
 </style>
 </head>
 <body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!-- nav -->
 
 <nav class="navbar navbar-default">
@@ -64,36 +64,42 @@ td, th {
 
   <div class="panel panel-primary">
   <div class="panel-heading">
-    <h3 class="panel-title"><span class="glyphicon glyphicon-gift"></span>    服務功能</h3>
+    <h3 class="panel-title"><span class="glyphicon glyphicon-gift"></span>    服務功能 > <span class="glyphicon glyphicon-signal"></span>    校友統計數據 > <span class="glyphicon glyphicon-pencil"></span>    畢業生修改率</h3>
+
   </div>
   <div class="panel-body">
-     <table>
-    <tr class="function1">
-  <td><div class="fun1" data-toggle="collapse" data-target="#demo">
-    <br />
-    <p>探索專業人才</p>
-    <br />
-    <span class="glyphicon glyphicon-book"></span>
-    </div>
-
-  </td>
-  <td><div class="fun1"><a href="statistics.html">
-    <br />
-    <p>代辦校友證件</p>
-    <br />
-    <span class="glyphicon glyphicon-list-alt"></span></a></div>
-  </td>
-  <td> <div class="fun1">
-    <br />
-    <p>校友統計數量</p>
-    <br />
-    <span class="glyphicon glyphicon-signal"></span></div>
-  </td>
-  </tr>
+  <div class="block">
+        <div class="block1">
+  <h3 class="title">各系所 93~97年畢業校友修改比率(%)
+</h3><br />
+  <table class="table1">
+    <tr>
+    <td>查詢系所</td>
+    <td colspan="4" rowspan="1" align="center"><select class="form-control" id="select">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select></td>
+    </tr>
+    <tr></tr>
+    <tr></tr>
+    <tr></tr>
     </table>
+       <br />
+       <div class="button">
+    <a href="#" class="btn btn-primary">確定</a>&nbsp;&nbsp;
+
+        </div>
+    </div>
+    <br /><br />
+
 
   </div>
-</div>
+
+
+
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="/Scripts/BS2/bootstrap-transition.js"></script>

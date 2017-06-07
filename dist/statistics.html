@@ -1,10 +1,12 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <link type="text/css" rel="stylesheet" href="statistics.css">
   <link href="https://bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="service.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <title></title>
-  <style>
+<style>
 
 td, th {
     padding: 5px;
@@ -13,8 +15,6 @@ td, th {
 </style>
 </head>
 <body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!-- nav -->
 
 <nav class="navbar navbar-default">
@@ -64,36 +64,26 @@ td, th {
 
   <div class="panel panel-primary">
   <div class="panel-heading">
-    <h3 class="panel-title"><span class="glyphicon glyphicon-gift"></span>    服務功能</h3>
+    <h3 class="panel-title"><span class="glyphicon glyphicon-gift"></span>    服務功能 > <span class="glyphicon glyphicon-signal"></span>    校友統計數據</h3>
+
   </div>
   <div class="panel-body">
-     <table>
-    <tr class="function1">
-  <td><div class="fun1" data-toggle="collapse" data-target="#demo">
     <br />
-    <p>探索專業人才</p>
+    <p class="title">您所能使用的統計報表/數據 <br>
+(* 滑鼠移至圖形上，會有功能說明)
+</p>
     <br />
-    <span class="glyphicon glyphicon-book"></span>
-    </div>
+    <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="分析各年度校友狀態的數據" data-original-title="Tooltip on right"><span class="glyphicon glyphicon-education"></span>    校友狀態統計</button>
+    <br /><br />
+    <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="分析各年度校友就業類別的數據" data-original-title="Tooltip on right"><span class="glyphicon glyphicon-briefcase"></span>    就業類別統計</button>
+    <br /><br />
+    <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="近年畢業校友修改比率" title="Tooltip on right"><span class="glyphicon glyphicon-pencil"></span>    畢業生修改率</button>
 
-  </td>
-  <td><div class="fun1"><a href="statistics.html">
-    <br />
-    <p>代辦校友證件</p>
-    <br />
-    <span class="glyphicon glyphicon-list-alt"></span></a></div>
-  </td>
-  <td> <div class="fun1">
-    <br />
-    <p>校友統計數量</p>
-    <br />
-    <span class="glyphicon glyphicon-signal"></span></div>
-  </td>
-  </tr>
-    </table>
 
   </div>
-</div>
+  <div class="panel-body">
+
+
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="/Scripts/BS2/bootstrap-transition.js"></script>
@@ -109,6 +99,10 @@ td, th {
 <script src="/Scripts/BS2/bootstrap-carousel.js"></script>
 <script src="/Scripts/BS2/bootstrap-typeahead.js"></script>
 
-
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
 </body>
 </html>

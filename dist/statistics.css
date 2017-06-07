@@ -1,0 +1,35 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  font-size: 14px;
+}
+
+html, body {
+  justify-content: center;
+  align-items: center;
+}
+
+.panel-primary {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.panel-info {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.panel-body {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.btn-default {
+  margin-left: 30%;
+  width: 40%;
+  height: 60px;
+}
+
+.title {
+  margin-left: 40%;
+}

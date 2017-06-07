@@ -27,6 +27,7 @@ table {
 
 p {
   text-align: center;
+  text-decoration: none;
 }
 
 .fun1 {
@@ -43,4 +44,19 @@ p {
 .fun1:hover {
   color: #158cba;
   cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+a:visited {
+  color: #666666;
+  text-decoration: none;
+}
+a:active{
+  text-decoration: none;
+}
+a:hover{
+  color: #158cba;
+  cursor: pointer;
+  text-decoration: none;
 }

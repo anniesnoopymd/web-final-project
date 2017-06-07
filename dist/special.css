@@ -1,0 +1,36 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  font-size: 12px;
+}
+
+html, body {
+  justify-content: center;
+  align-items: center;
+}
+
+.panel-body {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.panel-primary {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.block1 {
+  padding: 10px;
+  border: solid 2px;
+  border-radius: 5px;
+  border-color: lightgray;
+  background-color: #d8eeff;
+}
+
+table {
+  margin-left: 18%;
+}
+
+.button {
+  text-align: center;
+}

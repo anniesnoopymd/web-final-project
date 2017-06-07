@@ -1,0 +1,92 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  font-size: 14px;
+}
+
+html, body {
+  justify-content: center;
+  align-items: center;
+}
+
+.panel-primary {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.panel-info {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.panel-body {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.block1 {
+  padding: 10px;
+  border: solid 2px;
+  border-radius: 5px;
+  border-color: lightgray;
+  background-color: #fff;
+}
+
+.block2 {
+  padding: 10px;
+  border: solid 2px;
+  border-radius: 5px;
+  border-color: lightgray;
+  background-color: #ffd8f0;
+}
+
+.block3 {
+  padding: 10px;
+  border: solid 2px;
+  border-radius: 5px;
+  border-color: lightgray;
+  background-color: #d8ffec;
+}
+
+.block4 {
+  padding: 10px;
+  border: solid 2px;
+  border-radius: 5px;
+  border-color: lightgray;
+  background-color: #fffcd8;
+}
+.block4 .read {
+  margin-left: 45%;
+}
+
+.button {
+  text-align: center;
+}
+
+.block {
+  text-align: center;
+  font-weight: bold;
+  border: solid 2px;
+  width: 40%;
+  padding: 10%;
+  margin-left: 35%;
+}
+/*table {
+    border-collapse: collapse;
+}*/
+.table.table-bordered.table-condensed{
+  width: 80%;
+  margin-left: 10%;
+}
+table, th, td {
+    border: 1px solid black;
+    font-size: 15px;
+
+}
+.table-bordered{
+  border: 1px solid black;
+}
+#1 p{
+  font-size: 20px;
+
+}
