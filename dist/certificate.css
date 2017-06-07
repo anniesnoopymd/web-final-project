@@ -25,11 +25,12 @@ html, body {
 }
 
 .block1 {
-  padding: 10px;
+  padding: 50px;
   border: solid 2px;
   border-radius: 5px;
   border-color: lightgray;
   background-color: #fff;
+  font-size: 14px;
 }
 
 .block2 {
@@ -154,5 +155,6 @@ th{
   padding: 10px;
 }
 .block1{
-  font-size: 14px;;
+  font-size: 14px;
+  margin-left: 20px;
 }
