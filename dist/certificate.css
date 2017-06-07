@@ -146,3 +146,13 @@ th{
 .form-control{
   width: 70%;
 }
+.content{
+  background-color: #F5F5F5;
+  border-radius: 5px;
+  width: 350px;
+  height: 90px;
+  padding: 10px;
+}
+.block1{
+  font-size: 14px;;
+}
