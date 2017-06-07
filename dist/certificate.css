@@ -85,7 +85,7 @@ html, body {
 }
 table, th, td {
     border: 1px solid black;
-    font-size: 15px;
+    font-size: 15 px;
 
 }
 .table-bordered{
@@ -125,7 +125,24 @@ a{
   color:#253B6E;
 }
 .score{
-  font-size: 20px;
+  font-size: 23px;
   font-weight: bold;
   color:#FF8800;
+}
+table.table-bordered.table-condensed .scoresheet{
+  padding: 10px;
+  width: 70%;
+}
+thead{
+  background-color: #dddddd;
+  text-align:center;
+}
+th{
+  text-align:center;
+}
+#select{
+  width: 30%;
+}
+.form-control{
+  width: 70%;
 }

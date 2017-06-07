@@ -310,112 +310,143 @@ td, th {
         <p class="fj">FJ・ADB</p>
       </div>
       <hr />
-      <p class="score"><img src="images/seo-report.png" alt="" width="25px" height="25px">成績單</p>
-      <table>
+      <p class="score"><img src="images/seo-report.png" alt="" width="30px" height="30px">&nbsp;成績單</p>
+      <table class="table table-bordered table-condensed scoresheet">
         <tr>
           <td class="t"><label>
             <input type="checkbox"> 中文成績單
           </label></td>
-          <td>排名
+          <td>排名份數
             <select class="form-control" id="select">
               <option>1</option>
               <option>2</option>
               <option>3</option>
               <option>4</option>
               <option>5</option>
-            </select>份&nbsp;<br />
-            不排名
+            </select>&nbsp;<br />
+            不排名份數
             <select class="form-control" id="select">
               <option>1</option>
               <option>2</option>
               <option>3</option>
               <option>4</option>
               <option>5</option>
-            </select>份&nbsp;
+            </select>
+          </td>
+        </tr>
+        <br />
+
+        <tr>
+          <td class="t"><label>
+            <input type="checkbox"> 英文成績單</input>
+            <br />初次申請：<input class="read" type="radio" >&nbsp;是&nbsp;<input class="read" type="radio" >&nbsp;否
+          </label></td>
+          <td>排名/彌封份數
+            <select class="form-control" id="select">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>&nbsp;<br />
+            排名/不需彌封份數
+            <select class="form-control" id="select">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select><br />
+            不排名/彌封份數
+              <select class="form-control" id="select">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>&nbsp;<br />
+              不排名/不需彌封份數
+              <select class="form-control" id="select">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
       </td>
         </tr>
-        <tr>
-          <td class="t">通訊電話</td>
-          <td class="red">28472429</td>
-        </tr>
-        <tr>
-          <td class="t">手機電話</td>
-          <td class="red">0928263234</td>
-        </tr>
+
       </table>
         <br />
-      <div class="check">
-        <p>&nbsp;請核對您的<span class="red">基本資料</span>(若有異動，請回校有資料庫修正)</p>
-      </div>
-      <table>
-        <tr>
-          <td class="t">郵遞地址</td>
-          <td class="red">中華民國 247 新北市蘆洲區民族路436巷3號5樓</td>
-        </tr>
-        <tr>
-          <td class="t">通訊電話</td>
-          <td class="red">28472429</td>
-        </tr>
-        <tr>
-          <td class="t">手機電話</td>
-          <td class="red">0928263234</td>
-        </tr>
-        <tr>
-          <td class="t">永久地址</td>
-          <td class="red">中華民國 247 新北市蘆洲區民族路436巷3號5樓</td>
-        </tr>
-        <tr>
-          <td class="t">永久傳真</td>
-          <td class="red"></td>
-        </tr>
-        <tr>
-          <td class="t">公司地址</td>
-          <td class="red"></td>
-        </tr>
-        <tr>
-          <td class="t">公司名稱</td>
-          <td class="red">輔仁大學資訊管理學系</td>
-        </tr>
-        <tr>
-          <td class="t">職稱</td>
-          <td class="red">老師</td>
-        </tr>
-        <tr>
-          <td class="t">公司電話</td>
-          <td class="red">(02)2905-2622</td>
-        </tr>
-        <tr>
-          <td class="t">公司傳真</td>
-          <td class="red"></td>
-        </tr>
-        <tr>
-          <td class="t">電子郵件</td>
-          <td class="red">052122@mail.fju.edu.tw</td>
-        </tr>
+          <hr />
+        <p class="score"><img src="images/newspaper-2.png" alt="" width="30px" height="30px">&nbsp;畢業證書</p>
+        <table class="table table-bordered table-condensed scoresheet">
+          <tr>
+            <td ><label>
+              <input type="checkbox"> 中文畢業證書影本蓋印份數
+              <select class="form-control" id="select">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </label></td>
+            <td>
+            過去曾向教務處申請份數<select class="form-control" id="select">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </td>
+          </tr>
+          <tr>
+            <td class="t"><label>
+              <input type="checkbox"> 英文畢業證書
+            </label></td>
+            <td class="t"><label>
+              <input type="checkbox"> 英文畢業證書印本
+              <select class="form-control" id="select">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </label></td>
+          </tr>
+          <tr>
+            <td><label>
+              <input type="checkbox"> 中文（或英文對照版）畢業證書補發
+            </label></td>
+            <td>
+              <input type="checkbox"> 中文、英文畢業證書更名
+            </td>
+          </tr>
         </table>
-        <hr />
-        <p class="t">請選擇以下任何地址作為收件地址</p>
-        <div class="address">
-          <input class="read" type="radio" name="optionsRadios" id="optionsRadios1" value="option1">&nbsp;郵遞地址<br/>
-          <input class="read" type="radio" name="optionsRadios" id="optionsRadios1" value="option1">&nbsp;公司地址<br/>
-          <input class="read" type="radio" name="optionsRadios" id="optionsRadios1" value="option1">&nbsp;永久地址<br/>
-          <input class="read" type="radio" name="optionsRadios" id="optionsRadios1" value="option1">&nbsp;代收地址<br/>
           <br />
-          <p class="t">請輸入代收人及代收地址</p>
-          <table>
-            <tr>
-            <td>代收人姓名</td>
-            <td colspan="3" rowspan="1" align="center"><input type="text" class="form-control" placeholder=""></td>
-            </tr>
-            <tr>
-            <td>代收地址</td>
-            <td colspan="7" rowspan="1" align="center"><input type="text" class="form-control"placeholder=""></td>
-            </table>
-        </div>
+          <hr />
+        <p class="score"><img src="images/id-card.png" alt="" width="30px" height="30px">&nbsp;校友證</p>
+        <input type="checkbox">&nbsp;校友證
+        <hr />
+        <p class="score"><img src="images/id-card.png" alt="" width="30px" height="30px">&nbsp;領取方式</p>
+        <input class="read" type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">&nbsp;國內郵件<br/>
+        <input class="read" type="radio" name="optionsRadios" id="optionsRadios1" value="option1">&nbsp;航空郵件（100元）<br/>
+        <input class="read" type="radio" name="optionsRadios" id="optionsRadios1" value="option1">&nbsp;親自至公共事務室領取<br/>
+        <input class="read" type="radio" name="optionsRadios" id="optionsRadios1" value="option1">&nbsp;委託他人領取（需填寫代辦委託書）<br/>
+        <input class="read" type="radio" name="optionsRadios" id="optionsRadios1" value="option1">&nbsp;自費快捷郵件<br/>
+        <hr />
+         <p class="score"><img src="images/warning.png" alt="" width="30px" height="30px">&nbsp;備註</p>
+          <input type="text" class="form-control" id="inputEmail" placeholder=""><br />
+          如：將另計附加表件一同與成績單彌封
+            <br />
+           <br />
            <br />
            <div class="button">
-             <a href="#" class="btn btn-warning">回上一步</a>&nbsp;&nbsp;
-             <a href="#" class="btn btn-primary">是，繼續下一步</a>
+             <a href="#5" data-toggle="tab" class="btn btn-warning">回上一步</a>&nbsp;&nbsp;
+             <a href="#7" data-toggle="tab" class="btn btn-primary">是，繼續下一步</a>
            </div>
 
 
