@@ -10,7 +10,7 @@ body {
   height: 100%;
   padding: 0px;
   margin: 0px;
-  background-color: #888888;
+  background-color: #Fff;
   border-top: solid 20px #FF7E67;
 
   box-sizing: border-box;
@@ -100,4 +100,8 @@ fieldset{
 }
 fieldset input{
   width: 400px;
+}
+.button {
+  text-align: center;
+  font-size: 14px;
 }

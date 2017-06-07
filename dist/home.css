@@ -74,7 +74,7 @@ header{
   margin-right: 100px;
 }
 .btn.btn-primary{
-  background-color: #FF7E67;
+  background-color: #FF8800	;
   border: none;
   font-weight: bold;
   transition-duration: 0.5s;
@@ -86,10 +86,10 @@ header{
 }
 .btn.btn-primary.forget{
   background-color: #fff;
-  border:1px solid #FF7E67;
+  border:1px solid #FF8800	;
   font-weight: bold;
   transition-duration: 0.5s;
-  color: #FF7E67;
+  color: #FF8800	;
 }
 .btn.btn-primary:hover{
   background-color: #cccccc;
@@ -99,10 +99,10 @@ header{
 .title{
   font-size: 50px;
   font-wight: 900;
-  text-shadow:3px 3px #253B6E;
+  text-shadow:2px 2px #253B6E;
   text-align: left;
   padding-left: -200px;
-  color: #FF7E67;
+  color: #FF8800	;
   margin-top: 30px;
 }
 .engtitle{
@@ -542,7 +542,7 @@ section#section_future input {
 footer.jum {
   text-align: center;
   background-color: #253B6E;
-  height: 500px;
+  height: 300px;
   width: 1500px;
   margin-top: 40px;
 }
@@ -550,12 +550,12 @@ footer.jum .container {
   margin: 0 auto;
 }
 footer.jum p {
-  font-size: 30px;
+  font-size: 25px;
   letter-spacing: 7px;
   font-weight: bold;
   color: #ffffff;
 
-  margin-top: 170px;
+  margin-top: 80px;
 }
 footer.jum input {
   background-color: white;
@@ -739,7 +739,8 @@ btn.btn-default{
   box-shadow: 7px 5px 4px rgba(0,0,0,0.5);
 }
 .top{
-  background-color: #FF7E67;
+  background-color: #FF8800
+  ;
   height: 40px;
   font-size: 20px;
   padding-top: 4px;
@@ -919,8 +920,8 @@ btn.btn-default{
   border: none;
   color: white;
   transition-duration: 0.5s;
-  background-color: #ff7f67;
-  box-shadow: 5px 5px 0px #fff;
+  background-color: #FF8800;
+  box-shadow: 5px 5px 0px #253B6E;
 }
 .boxinfo:hover{
   width: 200px;
@@ -1044,7 +1045,7 @@ btn.btn-default{
 
 #section_photo{
   overflow: hidden;
-  background-color: #FF7E67;
+  background-color: #FF8800;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   width: 60%;
