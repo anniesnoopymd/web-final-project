@@ -70,6 +70,7 @@ html, body {
 }
 img{
   margin-left: 30%;
+  cursor: pointer;
 }
 
 /*table {
