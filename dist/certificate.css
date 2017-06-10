@@ -68,15 +68,10 @@ html, body {
   text-align: center;
   font-size: 14px;
 }
-
-.block {
-  text-align: center;
-  font-weight: bold;
-  border: solid 2px;
-  width: 40%;
-  padding: 10%;
-  margin-left: 35%;
+img{
+  margin-left: 30%;
 }
+
 /*table {
     border-collapse: collapse;
 }*/
@@ -154,6 +149,7 @@ th{
   height: 90px;
   padding: 10px;
 }
+
 .block1{
   font-size: 14px;
   margin-left: 20px;
