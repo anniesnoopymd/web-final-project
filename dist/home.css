@@ -703,3 +703,24 @@ btn.btn-default{
 .glyphicon-th-list,.glyphicon-tint,.glyphicon-list-alt{
   font-size: 50px;
 }
+/* 未連結 */
+     a:link
+     {
+         color: #464545;
+     }
+     /* 已連結過 */
+     a:visited
+     {
+         color: #464545;
+     }
+     /* 滑鼠移至連結 */
+     a:hover
+     {
+         color: #f24;
+         text-decoration: none;
+     }
+     /* 選擇的連結 */
+     a:active
+     {
+         color: #464545;
+     }
