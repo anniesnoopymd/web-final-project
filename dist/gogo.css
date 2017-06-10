@@ -40,7 +40,7 @@ p{
   font-family: 微軟正黑體;
   padding-top: 60px;
   text-align: center;
-  color: #8E8C8C;
+  color: #000;
 }
 span{
   font-size: 18px;
@@ -62,9 +62,9 @@ td{
   padding-bottom: 10px;
 
 }
-textarea{
+.control1{
   width: 400px;
-  height: 150px;
+  height: 200px;
   border-radius: 5px;
 }
 input{
