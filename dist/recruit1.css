@@ -1,30 +1,20 @@
 html{
-  height: 2000px;
+
   padding: 0px;
   margin: 0px;
 }
 
 body {
-  height: 2000px;
+  /*height: 2000px;
   padding: 0px;
-  margin: 0px;
+  margin: 0px;*/
   background-color: #F2F1F1;
   border-top: solid 20px #FF8800;
   box-sizing: border-box;
-  overflow: hidden;
-}
-.container{
-  height: 1200px;
-}
-.btn-primary{
-  margin-right:10%;
-  margin-top: 12px;
-  background-color: #FF8800;
-  color: white;
-  border: none;
-  font-size: 18px;
 
 }
+
+
 .words{
   font-size: 18px;
   /*border-radius: 10px;*/
@@ -36,7 +26,7 @@ body {
   box-shadow: 10px 10px 5px #aaaaaa;
 }
 form{
-  height: 750px;
+  height: 780px;
   margin-top: -40px;
 }
 p{
@@ -80,6 +70,7 @@ input{
   height: 45px;
   width: 130px;
   background-color: #ff7e67;
+  margin-left: 70%;
 }
 .container{
   width: 900px;
@@ -92,13 +83,13 @@ input{
   margin-left: 10px;
   padding-top: -2px;
 }
-.btn{
+/*.btn{
   width: 110px;
   height: 45px;
   margin-left: 80%;
   margin-top: -10px;
   text-align: center;
-}
+}*/
 fieldset{
   font-size: 16px;
 }
@@ -112,7 +103,7 @@ legend{
 .control-label{
   background-color: #FF8800;
   width: 100px;
-  margin-left: 140px;
+  margin-left: 100px;
   margin-right: 15px;
   padding: 10px;
   border-radius: 3px;
@@ -132,8 +123,18 @@ label{
   text-align: center;
 }
 .content{
-  margin-left: 250px;
+  margin-left: 200px;
   vertical-align: middle;
   padding: 8px;
   line-height: 25px;
+}
+.button {
+  text-align: center;
+  font-size: 14px;
+}
+.form-horizontal1{
+  height: 1020px;
+}
+.form-horizontal2{
+  height: 800px;
 }
