@@ -10,7 +10,7 @@ body {
   height: 100%;
   padding: 0px;
   margin: 0px;
-  background-color: #Fff;
+  background-color: #F2F1F1;
   border-top: solid 20px #FF7E67;
 
   box-sizing: border-box;
@@ -40,7 +40,7 @@ p{
   font-family: 微軟正黑體;
   padding-top: 60px;
   text-align: center;
-  color: white;
+  color: #8E8C8C;
 }
 span{
   font-size: 18px;
