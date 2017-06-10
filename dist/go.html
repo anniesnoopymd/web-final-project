@@ -1,9 +1,9 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="modify.css">
+  <link rel="stylesheet" href="special.css">
   <link href="https://bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <title></title>
 <style>
@@ -64,42 +64,69 @@ td, th {
 
   <div class="panel panel-primary">
   <div class="panel-heading">
-    <h3 class="panel-title"><span class="glyphicon glyphicon-gift"></span>    服務功能 > <span class="glyphicon glyphicon-signal"></span>    校友統計數據 > <span class="glyphicon glyphicon-pencil"></span>    畢業生修改率</h3>
+    <h3 class="panel-title">留下您的心聲吧!</h3>
 
   </div>
   <div class="panel-body">
-  <div class="block">
-        <div class="block1">
-  <h3 class="title">各系所 93~97年畢業校友修改比率(%)
-</h3><br />
-  <table class="table1">
-    <tr>
-    <td>查詢系所</td>
-    <td colspan="4" rowspan="1" align="center"><select class="form-control" id="select">
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-        </select></td>
-    </tr>
-    <tr></tr>
-    <tr></tr>
-    <tr></tr>
-    </table>
-       <br />
-       <div class="button">
-    <a href="#" class="btn btn-primary">確定</a>&nbsp;&nbsp;
-
-        </div>
-    </div>
     <br /><br />
+   <div class="block1">
+
+    <br />
+    <table>
+    <tr>
+    <td>網路位址</td>
+    <td colspan="4" rowspan="1" align="center">
+      <input name="last_name" placeholder="111.250.166.72 (防止重複留言之用)" class="form-control"  type="text"></td>
+    </tr>
+    <tr>
+    <td>您的身份</td>
+    <td>
+      <div class="radio">
+          <label>
+              <input type="radio" name="hosting" value="yes" /> 校友
+          </label>
+      </div>
+      <div class="radio">
+          <label>
+              <input type="radio" name="hosting" value="no" /> 系所秘書
+          </label>
+      </div>
+      <div class="radio">
+          <label>
+              <input type="radio" name="hosting" value="yes" /> 訪客
+          </label>
+      </div>
+    </td>
+
+    </tr>
+    <tr>
+    <td>您的姓名</td>
+    <td><input type="text" class="form-control" id="inputEmail" placeholder=""></td>
+
+    </tr>
+    <tr>
+    <td>要對本站說的話</td>
+    <td><textarea class="form-control control2" name="comment" placeholder=""></textarea></td>
+    
+    </tr>
+    </table>
+  <br / >
 
 
+      <!-- Button -->
+
+  <div class="button">
+          <a href="#" class="btn btn-warning">Send<i class="glyphicon glyphicon-send"></i></a>
+          <a href="home.html" class="btn btn-warning">回首頁<i class="glyphicon glyphicon-home"></i></a>
   </div>
 
+    </div><br /><br />
+  </div>
+</div>
 
 
+<!--   </div>
+</div> -->
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="/Scripts/BS2/bootstrap-transition.js"></script>

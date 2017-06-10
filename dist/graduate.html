@@ -1,7 +1,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <link type="text/css" rel="stylesheet" href="statistics.css">
+  <link type="text/css" rel="stylesheet" href="work.css">
   <link href="https://bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -26,7 +26,7 @@ td, th {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="home.html">首頁</a>
+      <a class="navbar-brand" href="#">首頁</a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
@@ -35,23 +35,23 @@ td, th {
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><span class="glyphicon glyphicon-plus"></span>    新增資料 <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="new.html">簡式欄位</a></li>
-            <li><a href="newall.html">全部欄位</a></li>
+            <li><a href="#">簡式欄位</a></li>
+            <li><a href="#">全部欄位</a></li>
           </ul>
         </li>
 
          <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-gift"></span>    服務功能 <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="special.html">探索專業人才</a></li>
-            <li><a href="certificate.html">代辦校友證件</a></li>
-            <li><a href="statistics.html">校友統計數量</a></li>
+            <li><a href="#">探索專業人才</a></li>
+            <li><a href="#">代辦校友證件</a></li>
+            <li><a href="#">校友統計數量</a></li>
           </ul>
         </li>
 
-        <li><a href="qanda.html"><span class="glyphicon glyphicon-question-sign"></span>    常見問題集</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span>    常見問題集</a></li>
 
-        <li><a href="gogo.html"><span class="glyphicon glyphicon-bullhorn"></span>    喊聲加油</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-bullhorn"></span>    喊聲加油</a></li>
 
         <li><a href="#"><span class="glyphicon glyphicon-download-alt"></span>   使用單位申請表</a></li>
       </ul>
@@ -64,24 +64,40 @@ td, th {
 
   <div class="panel panel-primary">
   <div class="panel-heading">
-    <h3 class="panel-title"><span class="glyphicon glyphicon-gift"></span>    服務功能 > <span class="glyphicon glyphicon-signal"></span>    校友統計數據</h3>
+    <h3 class="panel-title"><span class="glyphicon glyphicon-gift"></span>    服務功能 > <span class="glyphicon glyphicon-signal"></span>    校友統計數據 > <span class="glyphicon glyphicon-pencil"></span>    畢業生修改率</h3>
 
   </div>
   <div class="panel-body">
-    <br />
-    <p class="title">您所能使用的統計報表/數據 <br>
-(* 滑鼠移至圖形上，會有功能說明)
-</p>
-    <br />
-    <a href="alumni.html"><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="分析各年度校友狀態的數據" data-original-title="Tooltip on right"><span class="glyphicon glyphicon-education"></span>    校友狀態統計</button></a>
+  <div class="block">
+        <div class="block1">
+  <h3 class="title">各系所 93~97年畢業校友修改比率(%)
+</h3><br />
+  <table class="table1">
+    <tr>
+    <td>查詢系所</td>
+    <td colspan="4" rowspan="1" align="center"><select class="form-control" id="select">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select></td>
+    </tr>
+    <tr></tr>
+    <tr></tr>
+    <tr></tr>
+    </table>
+       <br />
+       <div class="button">
+    <a href="#" class="btn btn-primary">確定</a>&nbsp;&nbsp;
+
+        </div>
+    </div>
     <br /><br />
-    <a href="work.html"><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="分析各年度校友就業類別的數據" data-original-title="Tooltip on right"><span class="glyphicon glyphicon-briefcase"></span>    就業類別統計</button></a>
-    <br /><br />
-    <a href="graduate.html"><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="近年畢業校友修改比率" title="Tooltip on right"><span class="glyphicon glyphicon-pencil"></span>    畢業生修改率</button></a>
 
 
   </div>
-  <div class="panel-body">
+
 
 
 
@@ -99,10 +115,6 @@ td, th {
 <script src="/Scripts/BS2/bootstrap-carousel.js"></script>
 <script src="/Scripts/BS2/bootstrap-typeahead.js"></script>
 
-<script>
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
-});
-</script>
+
 </body>
 </html>
