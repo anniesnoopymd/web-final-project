@@ -557,7 +557,7 @@ btn.btn-default{
   background-color: #FF8800;
   box-shadow: 5px 5px 0px #253B6E;
 }
-.boxinfo:hover{
+/*.boxinfo:hover{
   width: 200px;
   height: 200px;
   margin-left: 150px;
@@ -568,7 +568,7 @@ btn.btn-default{
   color: white;
   background-color: #888888;
   box-shadow: 5px 5px #fff;
-}
+}*/
 
 .col-sm-2{
   padding-right: 25px;
